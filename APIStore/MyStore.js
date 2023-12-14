@@ -28,7 +28,7 @@ export default function MyStore() {
         </nav>
       </header>
       <div className="Search">
-      <input type="text" style={{backgroundImage:}} name="search" placeholder="Search.."/>
+      <input type="text" name="search" placeholder="Search.."/>
       </div>
       <div className="space">
         <Routes>
