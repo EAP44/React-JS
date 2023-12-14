@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    height: 100px ;
+    width: 100%;
+}
+.Icon{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 50px;
+    top: 22px;
+}
+.Navigation{
+    height: 100px ;
+    width: 57%;
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+}
+nav{
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+nav ul {
+    margin: 0 20px;
+}
+nav ul li{
+    margin: 0 20px;
+    display: inline-block;
+}
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #47B9EA;
+}
+
+.CL{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.CL h6{
+    margin: 0 30px;
+}
+.CL h6 a{
+    color: #47B9EA;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+}
+.CL h6 a:hover{
+    color: #000000;
+}
+.CL .lang-menu{
+    margin: 0 30px;
+    width: 33px;
+    height: 33px;
+    background-color: #ffffff;
+    border: none;
+    appearance: none;
+    border-radius: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CL .lang-menu:hover{
+    background-color: #cacaca;
+}
+.CL .lang-menu ul{
+    margin: 0;
+    padding: 0;
+    border: #979797 solid 1px;
+}
+.CL .lang-menu li{
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+.AppDestinations{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    background-color: #CFCFCF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.Destinations{
+    width: 80%;
+    height: auto;
+    padding: 30px;
+
+}
+.Destination{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 30%;
+    height: 150px;
+    border-radius: 7px 0  0 7px;
+}
+.image img{
+    width: 100%;
+    height: 150px;
+    border-radius: 7px 0  0 7px;
+}
+.contante{
+    width: 70%;
+    height: 150px;
+    border-radius: 0 7px 7px 0;
+    background-color: azure;
+    padding: 20px;
+    
+}

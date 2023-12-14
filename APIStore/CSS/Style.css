@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .Logo{
+    width: 25%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav{
+    width: 80%;
+    height: 90px;
+    display: flex;
+    justify-content: end;
+    align-items: self-end;
+}
+header nav ul{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 200px;
+    align-items: flex-end;
+    list-style-type: none;
+
+}
+header nav ul li{
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(83, 83, 83);
+}
+header nav ul li a:hover{
+    color:white ;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+
+
+.Search{
+    width: 20%;
+    height: 653px;
+    background-color: silver;
+    float: left;
+}
+.space{
+    width: 80%;
+    height: 653px;
+    background-color: rgb(255, 253, 253);
+    float: left;
+}
+.Search input[type=text] {
+    width: 90%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(56, 56, 56);
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
