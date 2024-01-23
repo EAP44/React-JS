@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/681/554/339/abstract-planet-space-purple-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 50px;
+    box-shadow: 0 15px 50px #111111;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    margin: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-block-end: 1px solid rgb(255, 255, 255);
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.input:focus {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-block-end: 1.5px solid rgb(255, 75, 75);
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.836);
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(255, 75, 75);
+    color: aliceblue;
+    width: 100px;
+}
+p{
+    color: aliceblue;
+    margin: 5px;
+}
