@@ -1,7 +1,6 @@
 const initialstate = {
     users : [
         {id:1,name:"ayoub",email:"ayoubelaouadi@gmail.com"},
-        {id:2,name:"hiba",email:"hibaaben@gmail.com"}
     ]
 }
 const Reducer = (state=initialstate , action) => {
