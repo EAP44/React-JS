@@ -40,7 +40,7 @@ export default function MyStore() {
       </Routes>
       </div>
       <footer>
-            <p>© 2024 All rights reserved</p>
+            <p>© 2025 All rights reserved</p>
       </footer>
     </BrowserRouter>
   );
