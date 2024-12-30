@@ -1,59 +1,65 @@
-html{
-   box-sizing: border-box;
-   height: 100%;
-}
+/* Universal Styles */
+*,
 *::before,
-*::after{
-    box-sizing: inherit;
+*::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: swap;
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-image: url("AA.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-display:swap ;
-    height: inherit;
-    justify-content: center;
+    background-size: cover;
 }
-.container{
+
+/* Container Styles */
+.container {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: rgb(0, 0, 0);
-    box-shadow: 0 4px 30px rgba(34, 34, 34, 0.144);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 16px;
-    box-sizing: border-box;
+    box-shadow: 0 4px 30px rgba(34, 34, 34, 0.144);
     border: 1px solid rgba(224, 224, 224, 0.192);
     color: #232323;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    flex-basis: 400px;
-    height: 550px; 
-    padding: 20px 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.screen{
+
+/* Screen Styles */
+.screen {
     backdrop-filter: blur(5.5px);
     background: rgb(31, 31, 31);
     box-shadow: 0 4px 30px rgba(34, 34, 34, 0.144);
     border-radius: 10px;
-    box-sizing: border-box;
-    border: 1px solid rgb(0, 0, 0);
     color: #ffffff;
     font-size: 55px;
-    overflow: auto;
     padding: 10px;
     text-align: right;
-    width: 326px;
+    flex-grow: 1;
+    overflow-x: auto;
 }
-.button-row{
+
+/* Button Row Styles */
+.button-row {
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
 }
-.button{
+
+/* Button Styles */
+.button {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(148, 148, 148, 0.603);
@@ -62,33 +68,52 @@ body{
     box-shadow: 0 4px 30px rgba(34, 34, 34, 0.144);
     color: #ffffff;
     font-size: 24px;
-    height: 65px; 
+    height: 65px;
     flex-basis: 20%;
-   
-
+    transition: background-color 0.2s ease;
 }
-.button:last-child{
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(204, 204, 204, 0.603);
-    border: 1px solid rgba(224, 224, 224, 0.192);
-    border-radius: 500px;
-    box-shadow: 0 4px 30px rgba(34, 34, 34, 0.144);
-    color: #ffffff;
+
+/* Special Button (Equals) */
+.button:last-child {
     background: rgb(255, 174, 0);
 }
-.button:last-child:hover{
-    background-color:ivory;
+
+.button:last-child:hover {
+    background-color: ivory;
     color: orange;
 }
-.button:hover{
+
+/* Hover Effect for Other Buttons */
+.button:hover {
     background-color: rgba(82, 82, 82, 0.603);
-    
 }
-.button:active{
-    background-color:rgb(49, 48, 44);
-    
+
+.button:active {
+    background-color: rgb(49, 48, 44);
 }
-.zero{
+
+/* Zero Button (Wider) */
+.zero {
     flex-basis: 47%;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .screen {
+        font-size: 45px;
+    }
+
+    .button {
+        font-size: 20px;
+        height: 55px;
+    }
+
+    .button-row {
+        margin: 5% 0;
+    }
 }
