@@ -7,14 +7,14 @@ function API() {
       
       // Axios
 
-      // axios.get('https://jsonplaceholder.typicode.com/users/')
-      // .then(reponse => settable(reponse.data))
+      axios.get('https://jsonplaceholder.typicode.com/users/')
+      .then(reponse => settable(reponse.data))
 
       // Fetch
       
-      // fetch('https://jsonplaceholder.typicode.com/users')
-      // .then((response)=>{ return response.json()})
-      // .then((data)=>{settable(data)})
+      fetch('https://jsonplaceholder.typicode.com/users')
+      .then((response)=>{ return response.json()})
+      .then((data)=>{settable(data)})
 
     },[]
   )
