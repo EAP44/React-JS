@@ -8,7 +8,7 @@ function AddList() {
     <>
     <div className="input-group mb-3">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="New Todo" value={Task} onChange={e=>setTask(e.target.value)}/>
+        <input type="text" class="form-control" placeholder="Add New Todo" value={Task} onChange={e=>setTask(e.target.value)}/>
         <span class="input-group-text">
           <i className="bi bi-journals"></i>
         </span>
