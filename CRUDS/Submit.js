@@ -61,29 +61,29 @@ function Submit() {
           Submit
         </button>
       </form>
-      <div className="container mt-5">
-        {/* <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-            </tr>
-          </thead>
-            {
-                table.map(
-                (e)=>{
-                    return(
-                        <tbody>
-                            <tr>
-                                <td>{e.nom}</td>
-                                <td>{e.pass}</td>
-                            </tr>
-                        </tbody>
-                    )
-                }
-                )
-            }
-        </table> */}
+      // <div className="container mt-5">
+      //   {/* <table class="table table-bordered">
+      //     <thead>
+      //       <tr>
+      //         <th>Firstname</th>
+      //         <th>Lastname</th>
+      //       </tr>
+      //     </thead>
+      //       {
+      //           table.map(
+      //           (e)=>{
+      //               return(
+      //                   <tbody>
+      //                       <tr>
+      //                           <td>{e.nom}</td>
+      //                           <td>{e.pass}</td>
+      //                       </tr>
+      //                   </tbody>
+      //               )
+      //           }
+      //           )
+      //       }
+      //   </table> */}
         <select 
             className="form-control" 
             onChange={
