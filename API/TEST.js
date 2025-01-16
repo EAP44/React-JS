@@ -7,8 +7,8 @@ function API() {
       
       // Axios
 
-      // axios.get('https://jsonplaceholder.typicode.com/users/')
-      // .then(reponse => settable(reponse.data))
+      axios.get('https://jsonplaceholder.typicode.com/users/')
+      .then(reponse => settable(reponse.data))
 
       // Fetch
       
