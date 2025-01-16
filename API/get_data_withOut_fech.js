@@ -19,7 +19,6 @@ async function getTotalGoals(team, year) {
     let totalGoals = 0;
 
     try {
-        // Fetch team1 goals
         for (let page = 1; ; page++) {
             const url = `https://jsonmock.hackerrank.com/api/football_matches?year=${year}&team1=${team}&page=${page}`;
             const data = await fetchData(url);
@@ -29,7 +28,6 @@ async function getTotalGoals(team, year) {
             totalGoals += data.data.reduce((sum, match) => sum + parseInt(match.team1goals, 10), 0);
         }
 
-        // Fetch team2 goals
         for (let page = 1; ; page++) {
             const url = `https://jsonmock.hackerrank.com/api/football_matches?year=${year}&team2=${team}&page=${page}`;
             const data = await fetchData(url);
