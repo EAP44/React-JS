@@ -5,7 +5,7 @@ function API() {
   useEffect(
     ()=>{
       
-      // Axios
+      Axios
 
       axios.get('https://jsonplaceholder.typicode.com/users/')
       .then(reponse => settable(reponse.data))
