@@ -1,6 +1,6 @@
-export const SignAction = (newuser) => {
+export const SignAction = (new_user) => {
   return {
     type: "SignAction",
-    payload: newuser
+    payload: new_user
   };
 };
