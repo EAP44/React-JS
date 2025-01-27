@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 
 export default function FormValidation() {
-  //All useRef
+  
   const name = useRef();
   const email = useRef();
   const message = useRef();
