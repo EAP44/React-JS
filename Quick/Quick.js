@@ -13,7 +13,7 @@ export default function Quick() {
       <header>
         <div className="Icon">
           <Link to="/">
-            <img src={QuickIMG} width={300} height={80} alt="Quick" />
+            <img src={QuickIMG} width={400} height={80} alt="Quick" />
           </Link>
         </div>
         <div className="Navigation">
