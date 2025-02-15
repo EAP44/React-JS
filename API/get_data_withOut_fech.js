@@ -1,4 +1,4 @@
-const https = require('https');
+ const https = require('https');
 
 async function getTotalGoals(team, year) {
     const fetchData = (url) =>
