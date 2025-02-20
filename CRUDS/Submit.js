@@ -12,8 +12,8 @@ function Submit() {
           <label for="uname">Username:</label>
           <input
             value={uname}
-            onChange={(e) => {
-              setuname(e.target.value);
+            onChange={(el) => {
+              setuname(el.target.value);
             }}
             type="text"
             className="form-control"
