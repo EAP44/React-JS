@@ -76,7 +76,7 @@ export default function Cal() {
                     <input
                         type="button"
                         className="button"
-                        value={Numv !== '0' ? 'C' : 'AC'}
+                        value={Numv !== 0 ? 'C' : 'AC'}
                         onClick={clear}
                     />
                     <input
