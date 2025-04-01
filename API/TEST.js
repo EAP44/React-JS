@@ -12,9 +12,9 @@ function API() {
 
   //     Fetch
       
-  //     fetch('https://jsonplaceholder.typicode.com/users')
-  //     .then((response)=>{ return response.json()})
-  //     .then((data)=>{settable(data)})
+      fetch('https://jsonplaceholder.typicode.com/users')
+      .then((response)=>{ return response.json()})
+      .then((data)=>{settable(data)})
 
   //   },[]
   )
