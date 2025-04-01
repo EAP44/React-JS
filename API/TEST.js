@@ -2,21 +2,21 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 function API() {
   const [table, settable] = useState([]);
-  useEffect(
-    ()=>{
+  // useEffect(
+  //   ()=>{
       
-      Axios
+  //     Axios
 
-      axios.get('https://jsonplaceholder.typicode.com/users/')
-      .then(reponse => settable(reponse.data))
+  //     axios.get('https://jsonplaceholder.typicode.com/users/')
+  //     .then(reponse => settable(reponse.data))
 
-      Fetch
+  //     Fetch
       
-      fetch('https://jsonplaceholder.typicode.com/users')
-      .then((response)=>{ return response.json()})
-      .then((data)=>{settable(data)})
+  //     fetch('https://jsonplaceholder.typicode.com/users')
+  //     .then((response)=>{ return response.json()})
+  //     .then((data)=>{settable(data)})
 
-    },[]
+  //   },[]
   )
   return (
     <div className="container shadow-sm mt-5 p-5 border">
