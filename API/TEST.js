@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 function API() {
   const [table, settable] = useState([]);
-  // useEffect(
-  //   ()=>{
+  useEffect(
+    ()=>{
       
   //     Axios
 
@@ -16,7 +16,7 @@ function API() {
       .then((response)=>{ return response.json()})
       .then((data)=>{settable(data)})
 
-  //   },[]
+    },[]
   )
   return (
     <div className="container shadow-sm mt-5 p-5 border">
