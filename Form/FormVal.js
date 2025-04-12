@@ -17,7 +17,6 @@ export default function FormValidation() {
       setIsFormValid(false);
     }
   };
-  //Second function
   const validateForm = () => {
     const emailValue = email.current.value;
     const acceptAllConditionsValue = acceptAllConditions.current.checked;
