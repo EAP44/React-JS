@@ -62,7 +62,6 @@ export default function FormValidation() {
     return isFormValid;
   };
 
-  // third function
   const resetForm = () => {
     name.current.value = "";
     email.current.value = "";
