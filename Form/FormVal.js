@@ -6,7 +6,6 @@ export default function FormValidation() {
   const email = useRef();
   const message = useRef();
   const acceptAllConditions = useRef();
-  //All useState
   const [errors, setErrors] = useState({});
   const [isFormSent, setIsFormSent] = useState(false);
   const [isFormValid, setIsFormValid] = useState(false);
