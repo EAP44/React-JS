@@ -9,7 +9,6 @@ export default function FormValidation() {
   const [errors, setErrors] = useState({});
   const [isFormSent, setIsFormSent] = useState(false);
   const [isFormValid, setIsFormValid] = useState(false);
-  //First function
   const validateRequiredElement = (ref) => {
     if (ref.current.value.trim() === "") {
       setErrors((prevState) => {
