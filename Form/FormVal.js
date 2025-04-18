@@ -69,7 +69,6 @@ export default function FormValidation() {
     acceptAllConditions.current.checked = false;
   };
 
-  //Second function
   const handleChange = () => {
     validateForm();
   };
