@@ -106,7 +106,6 @@ export default function FormValidation() {
     }
   };
 
-  //eighth function
   const displayErrors = () => {
     return Object.entries(errors).map((error, key) => {
       const [field, message] = error;
