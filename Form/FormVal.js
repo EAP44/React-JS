@@ -73,7 +73,6 @@ export default function FormValidation() {
     validateForm();
   };
 
-  //fourth function
   const submitForm = (e) => {
     e.preventDefault();
     setIsFormSent(false);
